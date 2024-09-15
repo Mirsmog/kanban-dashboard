@@ -1,4 +1,3 @@
-// TODO: I CAN BE MUCH BETTER
 import { persistStore, persistReducer, FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER } from 'redux-persist'
 import { TypedUseSelectorHook, useDispatch, useSelector, Provider } from 'react-redux'
 import createWebStorage from 'redux-persist/lib/storage/createWebStorage'
